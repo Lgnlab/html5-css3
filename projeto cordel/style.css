@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'titulo';
+    src: url(fontes/Passion_One/PassionOne-Regular.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: black;
+}
+
+header > h1 {
+    font-family: titulo;
+    text-align: center;
+    font-size: 192px;
+    color: white;
+}
+
+header > p {
+    font-family: verdana;
+    font-style: bold;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+
+a {
+    font-family: Verdana;
+    font-style: bold;
+}
